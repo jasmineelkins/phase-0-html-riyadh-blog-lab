@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
 
-html, body {
+html,
+body {
   height: 100%;
   min-height: 100%;
 }
@@ -9,7 +10,8 @@ body {
   background: url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
 
@@ -21,12 +23,13 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgba(198, 189, 252, 0.55);
 }
 
-h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
+h1,
+h2 {
+  font-family: "Gabriela", serif;
+  color: #333;
 }
 
 h1 {
@@ -36,13 +39,13 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: "Gabriela", serif;
   font-size: 1.5em;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 img {
@@ -58,6 +61,7 @@ p {
 a {
   color: black;
   text-decoration: none;
+  transition: 0.5s ease;
 }
 
 a:hover {
@@ -83,4 +87,16 @@ a:hover {
   .wrapper {
     width: 95%;
   }
+}
+
+/* MODIFICATIONS ---------------------------------- */
+#title {
+  color: rgba(144, 132, 223, 0.55);
+  text-shadow: 1px 1px salmon;
+}
+
+#subtitle {
+  font-style: italic;
+  color: rgb(228, 163, 155);
+  /* text-shadow: 1px 1px salmon; */
 }
